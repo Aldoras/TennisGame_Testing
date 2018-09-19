@@ -146,8 +146,6 @@ public class TennisGameTest {
 
 		game.player1Scored();
 
-	
-
 		String score = game.getScore();
 		assertEquals("The game doesnt show player1 advantage correctly", "player1 has advantage",score);
 	}
@@ -164,8 +162,6 @@ public class TennisGameTest {
 		game.player2Scored();
 
 		game.player2Scored();
-
-	
 
 		String score = game.getScore();
 		assertEquals("The game doesnt show player2 advantage correctly", "player2 has advantage",score);
